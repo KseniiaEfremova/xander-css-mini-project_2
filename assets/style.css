@@ -302,6 +302,8 @@ nav {
 
 .flex-container {
     display: flex;
+    display: flex;
+    flex-direction: row;
 }
 
 .flex-container article {
@@ -354,6 +356,29 @@ nav {
 
 
 /* main news */
+
+.main-news img {
+    content: url(/assets/img/image-web-3-desktop.jpg);
+}
+
+/* new section */
+
+.new {
+    margin: 20px 20px 0 0;
+}
+
+
+/* trend news */
+
+.trend-news img {
+    width: 40%;
+    height: 80%;
+    padding: 10px;
+}
+
+
+
+
 
 
 
