@@ -20,11 +20,6 @@ html {
     box-sizing: border-box;
 }
 
-h4 {
-    margin: 0;
-    padding: 0;
-}
-
 
 body {
     background-color: var(--off-white);
@@ -378,13 +373,13 @@ nav {
 
 .trend-news img {
     width: 40%;
-    height: 80%;
+    height: 85%;
     padding: 10px;
 }
 
 
 .trend-news div {
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
