@@ -20,6 +20,12 @@ html {
     box-sizing: border-box;
 }
 
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-color: var(--off-white);
     font-family: var(--mono);
@@ -377,138 +383,10 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-}
-/* 
-.navbar {
-    display: flex;
-    margin: 10px 20px;
-    padding: 10px 60px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    list-style: none;
-}
-
-.navbar ul li {
-    padding: 10px;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: var(--dark-grayish-blue);
-}
-
-.navbar a:hover {
-    color: var(--soft-orange);
-} */
-
-/* main news */
-/* 
-.main-news img {
-    width: 100%;
-}
-
-.main-news h1{
-    font-size: 40px;
-    color: black;
-    font-weight: 900;
-}
-
-.main-news button {
-    border: 1px solid var(--soft-red);
-    background-color: var(--soft-red);
-    color: var(--white);
-    padding: 10px 30px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.main-news button:hover {
-    cursor: pointer;
-    background-color: var(--black);
-    border-color: var(--black);
-} */
-
-/* new section */
-
-/* .new {
-    background-color: var(--black);
-    color: var(--off-white);
-    padding: 10px 20px 0px 20px;
-}
-
-.new h2 {
-    margin-top: 5px;
-    font-size: 32px;
-    color: var(--soft-orange);
-}
-
-.new article {
-    color: var(--grayish-blue);
-    border-bottom: 1px solid var(--grayish-blue);
-    padding-bottom: 5px;
-}
-
-.new article h4 a{
-    color: var(--off-white);
-    text-decoration: none;
-}
-
-.new article h4 a:hover {
-    color: var(--soft-orange);
-}
-
-.new article:last-child {
-    border-bottom: none;
-} */
-
-/* trend news */
-/* 
-.trend-news img {
-    width: 40%;
-    height: 80%;
-    padding: 15px;
-}
-
 .trend-news div {
-    display: flex;
-    padding: 10px 0;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-.trend-news div h4 a{
-    color: var(--very-dark-blue);
-    font-weight: 900;
-    text-decoration: none;
-}
-
-.trend-news a:hover {
-    color: var(--soft-red);
+    justify-content: space-evenly;
 
 }
 
-.trend-news div span {
-    font-size: 30px;
-    font-weight: 900;
-    color: var(--grayish-blue);
-} */
+
+}
